@@ -34,7 +34,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto auto;
   padding: 0 24px;
 }
@@ -124,8 +125,6 @@ ul li a {
   font-weight: 500;
 
   transition: background-color .2s;
-
-  width: 360px;
 }
 
 ul li a:hover {
